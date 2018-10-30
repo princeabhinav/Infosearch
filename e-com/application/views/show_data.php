@@ -13,6 +13,7 @@
         <th>Image</th>
         <th>Book Name</th>
         <th>Topic Name</th>
+        <th>Link</th>
         
       </tr>
     </thead>
@@ -28,10 +29,9 @@
       <tr>
         <td><?php echo $i++; ?></td>
         <td><img src="<?php echo base_url('assets/img/'.$row->img)?>" width="150px" height = 100px></td>
-        <!--<td><?php echo '<img src="data:image/jpeg; base64,'.base64_encode($row->img).'" style= " width="150px" height = 100px"/>';?></td>-->
         <td><?php echo $row->item_name;?></td>
         <td><?php echo $row->brand_name;?></td>
-        
+        <td><?php echo "<a href='$row->Link'>".'view'."</a>";?></td>
         
       </tr>
       <?php } } ?>

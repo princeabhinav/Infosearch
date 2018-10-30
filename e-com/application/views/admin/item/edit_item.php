@@ -19,12 +19,7 @@ $arr=[];
       <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Item" name="item_name" val value="<?= $arr->item_name?>">
      
     </div>
-    <?= form_error('item_name');?>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Price</label>
-      <input type="text" class="form-control" id="number" aria-describedby="emailHelp" placeholder="Price(enter numbers)" name="price" value= "<?= $arr->price?>">
-   </div>
-   <?= form_error('price');?>
+    
 
     <div class="form-group">
       <label for="exampleSelect1">Select Brand</label>

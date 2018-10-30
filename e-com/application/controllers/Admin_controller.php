@@ -124,6 +124,7 @@ else{
                 	 $data['price'] = $this->input->post('price');
                 	 $data['brand_id'] = $this->input->post('brand_id');
                 	 $data['des'] = $this->input->post('des');
+                	 $data['Link'] = $this->input->post('Link');
                 	 $data['created_at'] = date('d:m:y h:m:s');
 
                 	 $result = $this->item->add_item($data);

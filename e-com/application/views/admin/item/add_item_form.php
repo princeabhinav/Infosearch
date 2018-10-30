@@ -31,6 +31,10 @@
       <?php  }?>
       </select>
     </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Link</label>
+      <input type="text" class="form-control" id="number" aria-describedby="emailHelp" placeholder="Enter the Link " name="Link">
+   </div>
 
 <?= form_error('brand_id');?>
    
